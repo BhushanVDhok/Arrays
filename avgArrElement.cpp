@@ -1,4 +1,4 @@
-// Finding average of all array elements 
+// Problem: Finding average of all array elements 
 // avg = sum of all elements / total no of elements(n)
 #include <bits/stdc++.h>
 using namespace std;

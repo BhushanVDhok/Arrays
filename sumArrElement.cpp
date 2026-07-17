@@ -1,4 +1,4 @@
-// Finding the sum of all elements in an array.
+//Problem: Finding the sum of all elements in an array.
 #include <bits/stdc++.h>
 using namespace std;
 int main(){

@@ -1,4 +1,4 @@
-// Create an array --> input n and take n integers into array --> print them.
+// Problem: Create an array --> input n and take n integers into array --> print them.
 #include <bits/stdc++.h>
 using namespace std;
 int main(){

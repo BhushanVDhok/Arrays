@@ -1,4 +1,4 @@
-// Finding minimum element from given array
+//Problem: Finding minimum element from given array
 #include <bits/stdc++.h>
 using namespace std;
 int main(){

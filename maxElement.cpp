@@ -1,4 +1,4 @@
-// Finding max element from given array
+//Problem: Finding max element from given array
 #include <bits/stdc++.h>
 using namespace std;
 int maxElement(int arr[], int n)
