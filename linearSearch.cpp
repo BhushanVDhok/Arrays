@@ -1,4 +1,4 @@
-//Problem: Input an element X(i.e.target) --> check if it exists in the array  --> Linear Search
+// Problem: Input an element X(i.e.target) --> check if it exists in the array  --> Linear Search
 #include <bits/stdc++.h>
 using namespace std;
 bool linearSearch(int arr[], int n, int target)
@@ -17,10 +17,12 @@ int main()
     int arr[] = {9, 0, 7, -1, 2};
     int n = 5;
     int result = linearSearch(arr, n, 8);
-    if(!result){
+    if (!result)
+    {
         cout << "The target element is not present in the given array.";
     }
-    else{
+    else
+    {
         cout << "The target element is present.";
     }
 }

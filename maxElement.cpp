@@ -1,4 +1,4 @@
-//Problem: Finding max element from given array
+// Problem: Finding max element from given array
 #include <bits/stdc++.h>
 using namespace std;
 int maxElement(int arr[], int n)
@@ -17,6 +17,6 @@ int main()
 {
     int arr[] = {-9, -2, -1, -11, -8};
     int n = 5;
-    int max = maxElement(arr,n);
+    int max = maxElement(arr, n);
     cout << "Maximum element from the given array is: " << max << endl;
 }

@@ -26,10 +26,12 @@ int main()
 // ------------------------------------------------------------X--------------------------------------------------------------
 
 // Optimal approach --> using hashing
-int countFrequency(int arr[], int n, int el){
-    // Only the values from zero to 10 will be consider in this hash for values greater than 10 update the hash 
+int countFrequency(int arr[], int n, int el)
+{
+    // Only the values from zero to 10 will be consider in this hash for values greater than 10 update the hash
     int hash[10] = {0};
-    for(int i=0;i<n;i++){
+    for (int i = 0; i < n; i++)
+    {
         hash[arr[i]] += 1;
     }
     return hash[el];
